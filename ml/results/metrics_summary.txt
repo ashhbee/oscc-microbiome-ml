@@ -1,0 +1,52 @@
+
+
+=== Multiclass Classification Results ===
+
+Model: RandomForest
+Accuracy: 0.6400
+ROC AUC: 0.7716
+Classification Report:
+              precision    recall  f1-score  support
+Healthy        0.656250  0.777778  0.711864    27.00
+OSCC           0.606061  0.740741  0.666667    27.00
+PreCancer      0.700000  0.333333  0.451613    21.00
+accuracy       0.640000  0.640000  0.640000     0.64
+macro avg      0.654104  0.617284  0.610048    75.00
+weighted avg   0.650432  0.640000  0.622723    75.00
+
+Model: XGBoost
+Accuracy: 0.6267
+ROC AUC: 0.7955
+Classification Report:
+              precision    recall  f1-score    support
+Healthy        0.703704  0.703704  0.703704  27.000000
+OSCC           0.689655  0.740741  0.714286  27.000000
+PreCancer      0.421053  0.380952  0.400000  21.000000
+accuracy       0.626667  0.626667  0.626667   0.626667
+macro avg      0.604804  0.608466  0.605996  75.000000
+weighted avg   0.619504  0.626667  0.622476  75.000000
+
+
+=== Binary Classification Results ===
+
+Model: RandomForest
+Accuracy: 0.7778
+ROC AUC: 0.8697
+Classification Report:
+              precision    recall  f1-score    support
+Healthy        0.758621  0.814815  0.785714  27.000000
+OSCC           0.800000  0.740741  0.769231  27.000000
+accuracy       0.777778  0.777778  0.777778   0.777778
+macro avg      0.779310  0.777778  0.777473  54.000000
+weighted avg   0.779310  0.777778  0.777473  54.000000
+
+Model: XGBoost
+Accuracy: 0.7778
+ROC AUC: 0.8272
+Classification Report:
+              precision    recall  f1-score    support
+Healthy        0.758621  0.814815  0.785714  27.000000
+OSCC           0.800000  0.740741  0.769231  27.000000
+accuracy       0.777778  0.777778  0.777778   0.777778
+macro avg      0.779310  0.777778  0.777473  54.000000
+weighted avg   0.779310  0.777778  0.777473  54.000000

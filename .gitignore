@@ -1,0 +1,21 @@
+# --- Biological Data (Too Large) ---
+# Ignore raw sequencing reads
+*.fastq
+*.fastq.gz
+data/raw_data/
+
+# Ignore QIIME 2 Artifacts (Heavy Binaries)
+*.qza
+*.qzv
+qiime2/
+classifiers/
+
+# --- Python & System Junk ---
+# Ignore compiled python files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+.ipynb_checkpoints/
+

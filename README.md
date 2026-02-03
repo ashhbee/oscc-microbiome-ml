@@ -45,7 +45,9 @@ oral-microbiome-oscc-ml/
 │   ├── ml_pipeline.py             # Machine learning pipeline
 │   └── results/                   # ROC curves, confusion matrices, feature importance plots
 │
-├── scripts/                       # Helper scripts (manifest fixes, downloads)
+├── scripts/
+│   ├── qiime_pipeline.sh          # Full QIIME 2 bioinformatics workflow (Reproducible)
+│   └── download_sra.sh            # Helper to fetch raw data
 ├── README.md
 └── .gitignore
 ```
